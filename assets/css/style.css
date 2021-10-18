@@ -100,17 +100,23 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 70%; 
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
 
+header .wrapper{
+  text-align: center;
+  background-color: #2b2e37;
+}
 
-
-
-
+header p{
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px 0;
+}
 
 /*=================================
   Header styling ends here
@@ -130,21 +136,6 @@ li {
 /*=================================
   main styling ends here
 =================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
-
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
-
 /*media query starts*/
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
