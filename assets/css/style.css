@@ -181,12 +181,12 @@ header p{
 }
 
 .displayIn{ 
-  animation: display 1000ms normal; 
+  animation: display 300ms normal; 
   animation-fill-mode: forwards;
 }
 
 .displayOut{ 
-  animation: display 1000ms reverse;
+  animation: display 300ms reverse;
   animation-fill-mode: forwards;
 }
 
